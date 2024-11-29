@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "mostradinha";
+    src: url(/componentes/fonts/poppins-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: "medio";
+    src: url(/componentes/fonts/poppins-medium-webfont.woff);
+}
+
+@font-face {
+    font-family: "menor";
+    src: url(/componentes/fonts/poppins-light-webfont.woff);
+}

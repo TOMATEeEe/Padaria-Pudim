@@ -1,0 +1,105 @@
+<!-- ctrl + ; para comentar -->
+ <!-- TYPE ! -->
+  <!-- shift Alt setabaixo -->
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <!-- <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+          </style> -->
+      <meta http-equiv="X-UA-Compatible" content="IE-edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="css/ini.css" rel="stylesheet"> 
+
+          
+
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+      <title>produto</title>
+      
+   </head>
+   <body>
+      <header>
+          <div id="title">
+            <a href="index.html"><img src="logoji/logo3.png" alt="planta" class="logo1"></a>
+             
+          </div>
+  
+          <ul>
+            <mn><a href="produtos.html" ><li>Produtos</li></a></mn>
+            <mn><a href="usuarios.html" ><li>Integrantes</li></a></mn>
+            <mn><a href="Formulario.html" ><li>Formulario</li></a></mn>
+             
+          </ul>
+      </header>
+
+      <section >
+        <h2>Produtos</h2>
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="https://massamadreblog.com.br/wp-content/uploads/2018/04/160790-tudo-que-voce-precisa-saber-sobre-pao-frances.jpg" alt="Pão francês">
+                <h3>Pão Francês</h3>
+                <p>R$ 0,50 cada</p>
+                <button onclick="adicionarProduto('Pão Francês', 0.5)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9ZhTwejtAiRLiyW60eRPjaBxRKt6ysI-nw&s" alt="Bolo de Chocolate">
+                <h3>Bolo de Chocolate</h3>
+                <p>R$ 15,00 a fatia</p>
+                <button onclick="adicionarProduto('Bolo de Chocolate', 15)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="https://th.bing.com/th/id/OIP.M51SBmBqkWYaFAVDPbmX1wHaE8?w=285&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Bolo de Cenoura">
+                <h3>Bolo de Cenoura</h3>
+                <p>R$ 15,00 a fatia</p>
+                <button onclick="adicionarProduto('Bolo de Cenoura', 15)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="https://th.bing.com/th/id/R.a489c3e25d11bd2413e39199065d3415?rik=YGcv0A0Ab7AoVg&pid=ImgRaw&r=0" alt="Pão doce">
+                <h3>Pão doce</h3>
+                <p>R$ 15,00 a fatia</p>
+                <button onclick="adicionarProduto('Pão doce', 15)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="https://th.bing.com/th/id/OIP.vXaYxakkYjiANp4Hwic3UwHaFd?w=238&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Coxinha">
+                <h3>Coxinha</h3>
+                <p>R$ 6,50 a unidade</p>
+                <button onclick="adicionarProduto('Coxinha', 6.50)">Adicionar ao Carrinho</button>
+            </div> 
+            
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </section>
+        </div>
+        
+      <footer class="site-footer">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="logoji/logo4.png" alt="Logo">
+          </div>
+          <div class="footer-links">
+            <h3>Links Rápidos</h3>
+            <ul>
+              <li><a href="index.html" class="icons">Página Inicial</a></li>
+              <li><a href="pridutos.html" class="icons">Produtos</a></li>
+              <li><a href="usuarios.html" class="icons">Integrantes</a></li>
+              
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contato</h3>
+            <ul>
+              <li class="li-footer"><a href="mailto:jardiminteligente282@gmail.com" class="icons"><i class="fa-solid fa-envelope fa-lg"></i></a></li>
+              <li class="li-footer"><a href="https://www.instagram.com/projetojardiminteligente?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="icons"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+              <li class="li-footer"><a href="https://api.whatsapp.com/send/?phone=5531975221682&text&type=phone_number&app_absent=0" class="icons"><i class="fa-solid fa-phone fa-lg"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copy">&copy; 2024 Todos os direitos reservados</p>
+        </div>
+      </footer>
+     
+      
+    </body>
+     </html>
